@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* background: #789cd1; */
+  background-image: url(../images/bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  backdrop-filter: blur(3px);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1rem;
+  flex-direction: column;
+  margin-top: 4rem;
+}
+
+input {
+  padding: 10px 11px;
+  border: none;
+  outline: none;
+  background-color: white;
+  color: black;
+  font-size: 18px;
+  border-radius: 6px;
+}
+
+.city {
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 1.5rem;
+  font-family: sans-serif;
+  min-width: 150px;
+  width: 100%;
+  max-width: 240px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem 0;
+  flex-direction: column;
+}
+
+.city span {
+  font-size: 20px;
+}
+
+.cntry {
+  margin-bottom: 7px;
+}
+
+.cntry span {
+  font-weight: bold;
+}
+
+.cntry sup {
+  background-color: #789cd1;
+  border-radius: 6px;
+  padding: 5px 3px;
+  font-weight: 500;
+  margin-left: 3px;
+}
+
+.temp span {
+  font-weight: bold;
+  font-size: 39px;
+}
+
+.temp sup {
+  font-weight: bold;
+  font-size: 27px;
+}
+
+@media screen and (max-width: 270px) {
+  input {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 270px) {
+  input {
+    width: 90%;
+  }
+}
