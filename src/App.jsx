@@ -8,7 +8,7 @@ function App() {
   const Search = async (e) => {
     if (e.key === "Enter") {
       const result = await FetchWeather(value);
-      console.log(result);
+      // console.log(result);
       setWeather(result);
       setValue("");
     }
